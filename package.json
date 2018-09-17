@@ -1,0 +1,23 @@
+{
+  "name": "unum",
+  "version": "1.0.0",
+  "description": "code challenge for unum",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "drew hutchins",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "kue": "^0.11.6",
+    "lodash": "^4.17.11",
+    "redis": "^2.8.0",
+    "request": "^2.88.0"
+  },
+  "engines": {
+    "node": "8.0.0"
+  }
+}
